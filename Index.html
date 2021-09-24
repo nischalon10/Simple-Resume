@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet/less" type="text/css" href="./styles.scss" />
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1" type="text/javascript"></script>
     <title>Nischal's Resume</title>
 </head>
 <body>
     <div class="header">
-        <div class="image">
-            <img src="" alt="Picture of myself">
+        <div class="imagebox">
+            <div class="image"></div>
         </div>
+        <a href="https://www.nischalon.com/"> 
+            <h1>Nischal</h1>
+            <h2>Olety Nagesh</h2>
+        </a>
         <nav>
             <span><a href="#edu">Education</a></span>
             <span><a href="#tech">Projects</a></span>
@@ -19,11 +24,12 @@
             <span><a href="#act">Activities</a></span>
             <span><a href="#ldr">Leadership</a></span>
         </nav>
+        <input type="checkbox" name="" id="toggle">
     </div>
     <div class="container">
         <h1 id="edu">Educational Credentials</h1>
         <div class="Education">
-            <div class="USF">
+            <div class="card USF">
                 <h2>University of South Florida, Tampa</h1> <h4>Graduating Dec 2025</h4>
                 <h3>College, USA (Freshman)</h3>
                 <ul>
@@ -32,7 +38,7 @@
                     <li>Aiming to minor in entrepreneurship starting the sophomore year.</li>
                 </ul>
             </div>
-            <div class="SCTS">
+            <div class="card SCTS">
                 <h2>Sri Chaitanya Techno School, Bangalore</h2> <h4>Graduated May 2020</h4>
                 <h3>High School-CBSE, INDIA (Grade 11 and 12)</h3>
                 <ul>
@@ -46,7 +52,7 @@
         </div>
         <h1 id="tech">Technical Projects</h1>
         <div class="Techincal-Projects">
-            <div class="NASA">
+            <div class="card NASA">
                 <h2>Participated in the NASA Space settlement contest (2016)</h2>
                 <ul>
                     <li>Documented a vision of future life in space with 4 other teammates.</li>
@@ -54,7 +60,7 @@
                     <li>Successful submission, Project presented to IJAAA conference in Mysore 2018</li>
                 </ul>
             </div>
-            <div class="IRIS">
+            <div class="card IRIS">
                 <h2>Participated in IRIS National Science Fair</h2>
                 <ul>
                     <li>Innovated an LPG cylinder gas level indicator to determine the remaining burn time</li>
@@ -65,7 +71,7 @@
         </div>
         <h1 id="vol">Volunteer Experience</h1>
         <div class="Voluntee-Exp">
-            <div class="VMT">
+            <div class="card VMT">
                 <h2>Vedic Math Tutor/Trainer</h2>
                 <ul>
                     <li>Helping the poor and under-privileged students in and around Bangalore understand the principles, concepts and applications of Math's through fundamentals of Vedic Math's</li>
@@ -75,23 +81,23 @@
         </div>
         <h1 id="act">Activities and Awards</h1>
         <div class="Activities-and-awards">
-            <div class="Website">
+            <div class="card Website">
                 <h2>Freelance Web designer</h2>
                 <p>Designed over 15 websites for small businesses and local entrepreneurs using web templates. (2019-2020)</p>
             </div>
-            <div class="Youtuber">
+            <div class="card Youtuber">
                 <h2>Vedic Mathematics Student/Tutor</h2>
                 <p>Created over 15 YouTube videos that teach the fundamentals of Vedic Math’s</p>
             </div>
-            <div class="Karate">
+            <div class="card Karate">
                 <h2>Karate and Martial Arts</h2>
                 <p>Bronze medalist in the national karate championship (AIBKF-2015)</p>
             </div>
-            <div class="Graphic-Designer">
+            <div class="card Graphic-Designer">
                 <h2>Graphic Designer and Digital Artist</h2>
                 <p>Makes illustrations, Logos and posters. Knowledgeble in UI/UX design and </p>
             </div>
-            <div class="Online">
+            <div class="card Online">
                 <h2>Online Courses and Quarantine learning</h2>
                 <ul>
                     <li>Completed a series of courses from edX and earned badges from IBM acclaim</li>
@@ -102,7 +108,7 @@
         </div>
         <h1 id="ldr">Positions of Leadership and Responsibility</h1>
         <div class="Leadership">
-            <div class="Anchor">
+            <div class="card Anchor">
                 <h2>School Annual Day Event – Chief Coordinator and Lead Anchor</h2>
                 <ul>
                     <li>Lead a team of 15 in planning, coordinating and executing the schedule</li>

@@ -1,0 +1,7 @@
+- neomorphic design
+- animate on scroll
+- picture zoomes out and gets to the profile card on the top
+- single page application
+- vertical neomorhics card on the left
+- toggle button on the bottom left
+- Purple is the theme color

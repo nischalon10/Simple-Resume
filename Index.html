@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet/less" type="text/css" href="./styles.scss" />
-    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1" type="text/javascript"></script>
+    <link rel="stylesheet" href="./styles.css" />
+
+    <script src="./main.js"></script>
     <title>Nischal's Resume</title>
 </head>
 <body>
@@ -18,13 +19,12 @@
             <h2>Olety Nagesh</h2>
         </a>
         <nav>
-            <span><a href="#edu">Education</a></span>
-            <span><a href="#tech">Projects</a></span>
-            <span><a href="#vol">Volunteer</a></span>
-            <span><a href="#act">Activities</a></span>
-            <span><a href="#ldr">Leadership</a></span>
+            <a href="#edu"><span>Education</span></a>
+            <a href="#tech"><span>Projects</span></a>
+            <a href="#vol"><span>Volunteer</span></a>
+            <a href="#act"><span>Activities</span></a>
+            <a href="#ldr"><span>Leadership</span></a>
         </nav>
-        <input type="checkbox" name="" id="toggle">
     </div>
     <div class="container">
         <h1 id="edu">Educational Credentials</h1>
@@ -118,7 +118,9 @@
         </div>
     </div>
     <div class="footer">
-
+        <button class="theme-switche">
+            Dark Mode
+        </button>
     </div>
 </body>
 </html>

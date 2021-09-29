@@ -67,7 +67,7 @@ a{
     width: 100%;
     height: 0px;/* padding will mage sizing here */
     padding: 50% 0;/* make it a square = 100% vertical padding , none horizontal*/
-    background-image: url(./assests/Profile\ Picture.jpg);/* used a different color from the one in the tag */
+    background-image: url(./assets/Profile\ Picture.jpg);/* used a different color from the one in the tag */
     background-size: 100% 100%;
     border-radius: 2em;
 }
